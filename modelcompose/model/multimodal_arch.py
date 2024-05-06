@@ -328,7 +328,7 @@ class MultimodalMetaForCausalLM(ABC):
                 cur_modal_features = []
                 for modal in modal_features:
                     cur_modal_features.append(modal_features[modal][0])
-                    cur_modal_features = torch.cat(cur_modal_features, dim=0)
+                cur_modal_features = torch.cat(cur_modal_features, dim=0)
                 cur_input_embeds_1 = self.get_model().embed_tokens(cur_input_ids[:half_len])
                 cur_input_embeds_2 = self.get_model().embed_tokens(cur_input_ids[half_len:])
                 cur_input_embeds = torch.cat([cur_input_embeds_1, cur_modal_features[0:0], cur_input_embeds_2], dim=0)
