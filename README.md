@@ -1,5 +1,7 @@
 # Model Composition for Multimodal Large Language Models
 
+This repo contains the codes for our paper [Model Composition for Multimodal Large Language Models](https://aclanthology.org/2024.acl-long.606) (ACL 2024).
+
 ## Contents
 - [Install](#install)
 - [Preparation](#preparation)
@@ -142,13 +144,30 @@ Choose [modal] from `[image-audio-video, audio-video-pointcloud, image-audio-poi
 If you find our work useful, please consider giving this repository a star and citing our paper.
 
 ```
-@misc{chen2024model,
-      title={Model Composition for Multimodal Large Language Models}, 
-      author={Chi Chen and Yiyang Du and Zheng Fang and Ziyue Wang and Fuwen Luo and Peng Li and Ming Yan and Ji Zhang and Fei Huang and Maosong Sun and Yang Liu},
-      year={2024},
-      eprint={2402.12750},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{chen-etal-2024-model,
+    title = "Model Composition for Multimodal Large Language Models",
+    author = "Chen, Chi  and
+      Du, Yiyang  and
+      Fang, Zheng  and
+      Wang, Ziyue  and
+      Luo, Fuwen  and
+      Li, Peng  and
+      Yan, Ming  and
+      Zhang, Ji  and
+      Huang, Fei  and
+      Sun, Maosong  and
+      Liu, Yang",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.606/",
+    doi = "10.18653/v1/2024.acl-long.606",
+    pages = "11246--11262",
 }
 ```
 
